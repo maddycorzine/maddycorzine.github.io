@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "maddycorzine.github.io",
+			"path": "../../Documents/GitHub/maddycorzine.github.io"
+		},
+		{
+			"name": "ica3-part2",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "maddycorzine.github.io"
+	}
+}
