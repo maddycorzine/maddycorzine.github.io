@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: lightcoral;
+    font-family: 'Playpen Sans', cursive;
 }
 nav{
     height: 50vh;
@@ -11,7 +12,7 @@ nav{
     justify-content: space-between;
     height:20px;
     padding: .5em; 
-    background-color: aquamarine;
+    background-color: aquamarine; 
 }
 .grid {
     margin: 0 auto;
@@ -29,7 +30,6 @@ nav ul {
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
-    font-family: playpen-sans; 
   } 
 
 nav a{
@@ -39,7 +39,7 @@ nav a{
     text-align: center;
     text-decoration: none;
     color:green;
-    padding: .5em 1em;
+    padding: .5em 1em;  
 }
 
 img{
@@ -48,11 +48,36 @@ img{
 }
 
 #red-ball{
-    background-color: blue;
-    width: 20px;
-    height:20px;
+    background-color: rgb(173, 173, 236);
+    width: 30px;
+    height:30px;
     border-radius: 50%;
     position: absolute;
     left:5vw;
     top:0;
+    position: relative;
+}
+    
+#red-ball{ 
+    animation-name: ballfly;
+    background-color: blue;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes ballfly {
+    from{top: 100%;
+        left: 100%;}
+    to{top: 0;
+        left: 0;}
+}
+
+a:hover {
+    color: magenta;
+  }
+
+a { 
+    transition: color 2s; 
 }
