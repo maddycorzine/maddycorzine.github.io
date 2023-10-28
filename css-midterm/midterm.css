@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: oldlace;
+    color:antiquewhite;
+    font-family: "Cormorant SC";
+    background-image: url('color.jpg');
+}
+
+nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:15%;
+    padding: 1%; 
+    background-color: aquamarine; 
+}
+
+.flex-grid {
+    display: flex;
+    padding: 3%;
+    flex-direction: column; 
+    color:purple;
+    font-family: Lato;
+}
+
+.row {
+    display:flex;
+    flex-direction: row;
+}
+
+img{
+  width:60%;
+  height: 30%;
+}
+
+nav ul {
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  } 
+
+nav a{
+    width:100%;
+    display: block;
+    text-align: center;
+    font-family: michroma;
+    color:green;
+    padding: 1%;  
+}
+
+a:hover {
+    color: darkblue;
+  }
+
+a { 
+    transition: color 2s; 
+}
+
+ul {
+    font-size: 12px;
+}
+
+.box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
+    padding: 4%;
+    width: 50%;
+    border-style: solid;
+    border-color: aquamarine;
+    background-color: lightblue;
+}
+
+@media screen and (max-width: 400px) {
+body {
+  font-size: 2%;
+  padding:.5%; 
+}
+ul {
+  font-size: 2%;
+}
+.row {
+    flex-direction: column;
+    margin: auto;
+}
+.box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
+    margin:auto;
+}
+}
