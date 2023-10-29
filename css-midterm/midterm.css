@@ -30,7 +30,7 @@ nav {
     flex-direction: row;
 }
 
-img{
+img {
   width:60%;
   height: 30%;
 }
@@ -42,7 +42,7 @@ nav ul {
     justify-content: space-evenly;
   } 
 
-nav a{
+nav a {
     width:100%;
     display: block;
     text-align: center;
@@ -63,7 +63,7 @@ ul {
     font-size: 12px;
 }
 
-.box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
+.box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     padding: 4%;
     width: 50%;
     border-style: solid;
@@ -74,16 +74,17 @@ ul {
 @media screen and (max-width: 400px) {
 body {
   font-size: 2%;
-  padding:.5%; 
+  padding: 0; 
 }
 ul {
-  font-size: 2%;
+    font-size: 2%;
 }
 .row {
     flex-direction: column;
     margin: auto;
 }
 .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
-    margin:auto;
+    width: 80%;
+    margin: auto;
 }
 }
