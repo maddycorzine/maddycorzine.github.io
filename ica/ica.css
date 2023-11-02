@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: palevioletred;
+a.hover {
+    color: darkblue;
+}
+
+a { 
+    transition: color 2s; 
+}
+}
+
+.button {
+    display: block;
+    color: red;
+    border-radius: 10px;
+    border: none;
+    padding: 5%, -2%;
+    cursor: pointer;
+    text-align: center;
+    width: 50%;
+    font-size: 20px;
+}
+
+  @media screen and (max-width: 600px) {
+
+}
