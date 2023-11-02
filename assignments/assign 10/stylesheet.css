@@ -1,0 +1,36 @@
+ body {
+    font-family: 'Montserrat', sans-serif;
+    width: 350px;
+    margin: auto; 
+    padding: 15%; 
+    text-align: center;
+    background-color: #A1C7E0;
+}
+
+  label {
+    font-weight: bold;
+  }
+
+  div {
+    padding-bottom: 20px;
+}
+
+  input[type="text"] {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    padding: 5px;
+    width: 150px;
+    background-image: url('blue.jpeg');
+    border-color: blanchedalmond;
+  }
+
+  p {
+    color: yellow;
+    padding: 10px;
+    visibility: hidden;
+    background-image: url('yes.jpeg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
