@@ -1,0 +1,56 @@
+h1 {
+  font-family:  'Gloria Hallelujah', cursive;
+  text-align: center;
+  color: orangered; 
+}
+
+body {
+  width: 640px;
+  margin: 0 auto;
+  background-image: url('web.jpeg');
+  background-color: grey;
+  background-size: 100%;
+  background-repeat: no-repeat; 
+}
+
+.full-img {
+  position: relative;
+  display: inline-block;
+  width: 640px;
+  height: 480px;
+
+}
+
+.displayed-img {
+  border-radius: 50px;
+  border: 2px solid #73AD21;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640px;
+  height: 480px;
+  background-color: rgba(0,0,0,0);
+}
+
+button {
+  border: 0;
+  background: rgba(150,150,150,0.6);
+  text-shadow: 1px 1px 1px yellow;
+  border: 1px solid pink;
+  border-radius: 25px;
+  position: absolute;
+  cursor: pointer;
+  top: 2px;
+  left: 2px;
+  bottom: 4px;
+}
+
+.thumb-bar img {
+  display: block;
+  width: 20%;
+  float: left;
+  cursor: pointer;
+}
