@@ -1,0 +1,18 @@
+body {
+    border: 8px solid lavender; 
+    background-color: lightyellow; 
+    color: lightblue; 
+    font-weight: bold; 
+    padding-bottom: 10px; 
+    display: block; 
+    font-size: 16pt; 
+    font-family: 'Whisper', cursive;
+  }
+
+button {
+    font-size: 15.5pt; 
+    font-family: 'Whisper', cursive;
+    color: lightblue; 
+    margin: 50px; 
+    background-color: antiquewhite;
+  }
