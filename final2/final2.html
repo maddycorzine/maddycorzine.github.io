@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="final2.css">
+    <script src="final2.js" defer></script>
+    <title>Terrible Phone Number</title>
+</head>
+
+<body>
+    <h1>Rotary Phone Number Entry</h1>
+    <div id="rotaryPhone">
+      <div class="dial" onclick="rotateDial(1)"></div>
+      <div class="dial" onclick="rotateDial(2)"></div>
+      <div class="dial" onclick="rotateDial(3)"></div>
+      <div class="dial" onclick="rotateDial(4)"></div>
+      <div class="dial" onclick="rotateDial(5)"></div>
+      <div class="dial" onclick="rotateDial(6)"></div>
+      <div class="dial" onclick="rotateDial(7)"></div>
+      <div class="dial" onclick="rotateDial(8)"></div>
+      <div class="dial" onclick="rotateDial(9)"></div>
+      <div class="dial" onclick="rotateDial('*')"></div>
+      <div class="dial" onclick="rotateDial(0)"></div>
+      <div class="dial" onclick="rotateDial('#')"></div>
+    </div>
+    <h2 id="phone" ></h2>
+    <br>
+    <button onclick="submitNumber()">Submit</button>
+    <button onclick="clearPhoneNumber()">Clear</button>
+  </body>
+</html>
+
